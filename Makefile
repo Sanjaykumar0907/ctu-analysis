@@ -5,7 +5,7 @@
 #CC=/host/contrail-ubm-ats.ccp/b/ats/work/static-analysis/psd-llvm-9/install/bin/clang
 
 all:
-	$(CC) -c sample_ctu.c util.c 
+	gcc -c sample_ctu.c util.c 
 
 clean:
 	rm -rf *.o
